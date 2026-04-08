@@ -1,0 +1,32 @@
+# Runtime data — personal job search data, not for version control
+job_search.db
+db_dump.sql
+job_evaluations.json
+job_dashboard.html
+
+# Temporary handoff file written by Cowork task
+/tmp/new_jobs.json
+
+# Filesystem MCP test file
+.write_test
+
+# Claude Desktop config backups — may contain tokens, never commit
+claude_desktop_config.json.bak
+claude_desktop_config.json.bak.prev
+
+# The secrets file itself — never lives in a repo, but belt-and-suspenders
+.claude-secrets
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# Editor and OS
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
