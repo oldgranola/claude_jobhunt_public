@@ -2,7 +2,11 @@
 job_search.db
 db_dump.sql
 job_evaluations.json
+job_presets.json
 job_dashboard.html
+
+# Claude-generated extraction output — overwritten every run, never commit
+build_jobs.py
 
 # Temporary handoff file written by Cowork task
 /tmp/new_jobs.json
